@@ -8,6 +8,22 @@
     Deep Taupe: #86615C
 */
 
+/*
+  next:
+  add content to about
+  finish contact page
+  style pages more thoroughly
+  new picture!! maybe style image better with new hi res photo
+  fix icon fade-ins
+  deploy!! then fix mobile
+*/
+
+$rich-black: #0D1321;
+$linen: #FFEDDF;
+$june-bud: #C5D86D;
+$deep-taupe: #86615C;
+$pale-spring-bud: #E2E3A6;
+
 *{
   margin: 0px !important;
   padding: 0px !important;
@@ -18,39 +34,80 @@
 }
 
 .home{
-    background-color: #0D1321 !important;
-    background-image: url(/images/lineyGuy.svg);
+    background-color: $rich-black !important;
+    background-image: url(/images/swirlyGuy.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: center;
-    color: #C5D86D !important;
+    background-size: 75%;
+    background-position: right;
+    // color: $june-bud !important;
 }
 
 .about{
-    background-color: #C5D86D !important;
-    background-image: url(/images/swirlyGuy.svg);
+    background-color: $june-bud !important;
+    background-image: url(/images/city-2.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 40%;
     background-position: center;
-    color: #0D1321 !important;
+    color: $rich-black !important;
 }
 
 .projects{
-    background-color: #86615C !important;
-    background-image: url(/images/swirlyGuy.svg);
+    background-color: $deep-taupe !important;
+    background-image: url(/images/project-2.svg);
     background-repeat: no-repeat;
     background-size: 45%;
     background-position: center;
-    color: #0D1321 !important;
+    color: $rich-black !important;
+}
+
+#project-card-1,
+#project-card-3{
+    margin-bottom: 25% !important;
+}
+
+.card-body h5{
+    font-weight: bold;
+}
+
+.project-card{
+    background-color: #0D1321 !important;
+    color: #FFEDDF !important;
+    // border: #FFEDDF solid !important;
+}
+
+.project-link{
+    text-decoration: none;
+}
+
+.project-link:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    // bottom: 0;
+    left: 0;
+    background-color: #C5D86D;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.project-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.disclaimer{
+    color: #FFEDDF !important;
 }
 
 .contact{
-    background-color: #FFEDDF !important;
-    background-image: url(/images/swirlyGuy.svg);
+    background-color: $linen !important;
+    background-image: url(/images/contact-1.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: center;
-    color: #0D1321 !important;
+    background-size: 65%;
+    background-position: right;
+    color: $rich-black !important;
 }
 
 .home,
@@ -73,19 +130,21 @@
 }
 
 img{
-    border-radius: 50%;
-    border: solid #86615C;
+    // border-radius: 50%;
+    border: solid $deep-taupe;
+    align-items: right;
+    size: 20%;
 }
 
 .nav-list{
   height: 10vh;
   display: flex;
-  width: 45%;
+  // width: 45%;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
   list-style: none;
-  background-color: #0D1321;
+  background-color: $rich-black;
   //margin: 0px !important;
   //padding: 0px !important;
   //box-sizing: border-box !important;
@@ -94,18 +153,68 @@ img{
 .nav-links{
   text-decoration: none;
   font-size: 18px;
+  transition: all 0.5s;
+}
+
+.nav-links:hover{
+  background-color: #C5D86D !important;
+  color: #0D1321 !important;
+  transition: all 0.5s;
+  padding-top: 100% !important;
+  padding-bottom: 50% !important;
+  padding-left: 30% !important;
+  padding-right: 30% !important;
 }
 
 a{
-    color: #C5D86D !important;
+    color: $june-bud !important;
 }
 
-p{
-    color: #FFEDDF;
+.fa-brands{
+    color: $june-bud !important;
+}
+
+.name-and-location{
+    color: $june-bud !important;
+    // padding-left: 5% !important;
+    // padding-bottom: 30% !important;
+}
+
+.my-blurb{
+    color: $linen !important;
+    // padding-left: 5% !important;
+    
+}
+
+.my-bio{
+    // padding-bottom: 30% !important;
+    font-weight: normal !important;
 }
 
 footer{
     position:absolute;
     bottom:0;
-    height:50px;   /* Height of the footer */
+    height: 75px;   /* Height of the footer */
+ }
+
+ input{
+   background: transparent !important;
+   border: none;
+   border-bottom: #0D1321 solid thin;
+   padding: 10px !important;
+   margin: 10px !important;
+   font-weight: bold !important;
+ }
+
+ label{
+   font-weight: bold;
+ }
+
+ .form-group{
+   background-color: #C5D86D !important;
+  //  width: 50%;
+ }
+
+ form{
+  //  margin-top: 20% !important;
  }
