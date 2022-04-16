@@ -55,15 +55,16 @@ $pale-spring-bud: #E2E3A6;
     background-color: $deep-taupe !important;
     background-image: url(/images/project-2.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 40%;
     background-position: center;
     color: $rich-black !important;
+    display: grid;
 }
 
-#project-card-1,
-#project-card-3{
-    margin-bottom: 25% !important;
-}
+// .project-row-1,
+// .project-row-3{
+//     display: grid;
+// }
 
 .card-body h5{
     font-weight: bold;
