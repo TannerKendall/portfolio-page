@@ -132,6 +132,14 @@
   color: #0D1321 !important;
 }
 
+.contact-banner {
+  font-weight: bold !important;
+}
+
+.contact-blurb {
+  color: #86615C !important;
+}
+
 .nav-list {
   height: 10vh;
   display: flex;
@@ -175,7 +183,6 @@ a {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
   height: 75px;
   /* Height of the footer */

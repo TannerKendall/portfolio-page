@@ -6282,47 +6282,6 @@ var H = new _highway.default.Core({
     default: _transition.default
   }
 });
-var linkedIn = document.querySelector('.fa-linkedin');
-var github = document.querySelector('.fa-github');
-var skillsButton = document.querySelector('.about-link');
-var indexButton = document.querySelector('.index-link');
-var projectsButton = document.querySelector('.projects-link');
-var contactButton = document.querySelector('.contact-link');
-skillsButton.addEventListener('click', function () {
-  linkedIn.classList.add('d-none');
-  github.classList.add('d-none');
-});
-indexButton.addEventListener('click', function () {
-  linkedIn.setAttribute('style', 'color: #C5D86D !important');
-  github.setAttribute('style', 'color: #C5D86D !important');
-  linkedIn.classList.remove('d-none');
-  github.classList.remove('d-none');
-});
-projectsButton.addEventListener('click', function () {
-  linkedIn.setAttribute('style', 'color: #FFEDDF !important');
-  github.setAttribute('style', 'color: #FFEDDF !important');
-  linkedIn.classList.add('d-none');
-  github.classList.add('d-none');
-});
-contactButton.addEventListener('click', function () {
-  linkedIn.setAttribute('style', 'color: #86615C !important');
-  github.setAttribute('style', 'color: #86615C !important');
-  linkedIn.classList.remove('d-none');
-  github.classList.remove('d-none');
-}); // let daysNumSpan = document.querySelector('.num-days');
-// let oneDay = 1000 * 60 * 60 * 24;
-// let deployDate = new Date("4/10/2022");
-// const getDaysBetween = ((deployDate) => {
-//     let currentDate = new Date();
-//     let oneDay = 1000 * 60 * 60 * 24;
-//     let diffInTime = currentDate.getTime() - deployDate.getTime();
-//     return Math.ceil(diffInTime / oneDay);
-// });
-// console.log(getDaysBetween(deployDate));
-// let fillInDaysCounter = () => {
-//     daysNumSpan.innerText = getDaysBetween(deployDate);
-// }
-// fillInDaysCounter();
 },{"@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.module.js","./transition":"js/transition.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

@@ -30,7 +30,6 @@ $pale-spring-bud: #E2E3A6;
   box-sizing: border-box !important;
   font-family: Montserrat; /*maybe*/
 
-  // background-color: #0D1321;
 }
 
 .home{
@@ -39,7 +38,6 @@ $pale-spring-bud: #E2E3A6;
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: right;
-    // color: $june-bud !important;
 }
 
 .about{
@@ -61,11 +59,6 @@ $pale-spring-bud: #E2E3A6;
     display: grid;
 }
 
-// .project-row-1,
-// .project-row-3{
-//     display: grid;
-// }
-
 .card-body h5{
     font-weight: bold;
 }
@@ -73,7 +66,6 @@ $pale-spring-bud: #E2E3A6;
 .project-card{
     background-color: #0D1321 !important;
     color: #FFEDDF !important;
-    // border: #FFEDDF solid !important;
 }
 
 .project-link{
@@ -110,7 +102,6 @@ $pale-spring-bud: #E2E3A6;
 
 .disclaimer{
     color: #FFEDDF !important;
-    // margin-bottom: 5% !important;
 }
 
 .contact{
@@ -145,30 +136,30 @@ $pale-spring-bud: #E2E3A6;
 .tech-about{
     background-color: rgba($linen, .6);
     color: $rich-black;
-    // margin-top: 15% !important;
-    
 }
 
 .lang-icon{
     color: $rich-black !important;
 }
 
-.icon-row{
-    
+.contact-banner{
+    // background-color: #86615C !important;
+    font-weight: bold !important;
+    // color: #FFEDDF !important;
+}
+
+.contact-blurb{
+    color: #86615C !important;
 }
 
 .nav-list{
   height: 10vh;
   display: flex;
-  // width: 45%;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
   list-style: none;
   background-color: $rich-black;
-  //margin: 0px !important;
-  //padding: 0px !important;
-  //box-sizing: border-box !important;
 }
 
 .nav-links{
@@ -191,19 +182,12 @@ a{
     color: $june-bud !important;
 }
 
-// .fa-brands{
-//     color: $june-bud !important;
-// }
-
 .name-and-location{
     color: $june-bud !important;
-    // padding-left: 5% !important;
-    // padding-bottom: 30% !important;
 }
 
 .my-blurb{
     color: $linen !important;
-    // padding-left: 5% !important;
     
 }
 
@@ -212,7 +196,6 @@ a{
 }
 
 footer{
-    position:absolute;
     bottom:0;
     height: 75px;   /* Height of the footer */
  }
@@ -232,9 +215,5 @@ footer{
 
  .form-group{
    background-color: #C5D86D !important;
-  //  width: 50%;
  }
 
- form{
-  //  margin-top: 20% !important;
- }
