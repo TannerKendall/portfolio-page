@@ -6282,18 +6282,26 @@ var H = new _highway.default.Core({
     default: _transition.default
   }
 });
-var html = console.log(document.querySelector('html'));
+var indexButton = document.querySelector('.index-link');
 var aboutButton = document.querySelector('.about-link');
 var projectsButton = document.querySelector('.projects-link');
+var contactButton = document.querySelector('.contact-link');
 var body = document.querySelector('body');
+indexButton.addEventListener('click', function () {
+  document.createAttribute('style', 'background: #0D1321;');
+  body.style.background = "#0D1321";
+});
 aboutButton.addEventListener('click', function () {
-  // document.style.background = "#C5D86D";
   document.createAttribute('style', 'background: #C5D86D;');
   body.style.background = "#C5D86D";
 });
 projectsButton.addEventListener('click', function () {
   document.createAttribute('style', 'background: #86615C;');
   body.style.background = "#86615C";
+});
+contactButton.addEventListener('click', function () {
+  document.createAttribute('style', 'background: #FFEDDF;');
+  body.style.background = "#FFEDDF";
 });
 },{"@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.module.js","./transition":"js/transition.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -6323,7 +6331,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53727" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55361" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
