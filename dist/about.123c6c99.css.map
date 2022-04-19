@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles\\about.scss"],"names":[],"mappings":"AAAA;AAAA;EAEI;EACA","file":"about.123c6c99.css","sourceRoot":"..","sourcesContent":["html,\r\nbody{\r\n    overscroll-behavior: auto;\r\n    background: #C5D86D;\r\n}"]}

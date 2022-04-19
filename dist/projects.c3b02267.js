@@ -117,12 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"styles/styles.scss":[function(require,module,exports) {
+})({"styles/projects.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\conno\\Desktop\\PortfolioPage\\images\\swirlyGuy.svg":[["swirlyGuy.eb3e1f55.svg","images/swirlyGuy.svg"],"images/swirlyGuy.svg"],"C:\\Users\\conno\\Desktop\\PortfolioPage\\images\\city-2.svg":[["city-2.8e1ba5d3.svg","images/city-2.svg"],"images/city-2.svg"],"C:\\Users\\conno\\Desktop\\PortfolioPage\\images\\project-2.svg":[["project-2.7dcb85db.svg","images/project-2.svg"],"images/project-2.svg"],"C:\\Users\\conno\\Desktop\\PortfolioPage\\images\\contact-1.svg":[["contact-1.a3b83e00.svg","images/contact-1.svg"],"images/contact-1.svg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53727" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53471" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -466,4 +466,4 @@ module.exports = function loadJSBundle(bundle) {
 },{}],0:[function(require,module,exports) {
 var b=require("../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
-//# sourceMappingURL=/styles.c86c3119.js.map
+//# sourceMappingURL=/projects.c3b02267.js.map

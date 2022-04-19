@@ -6282,6 +6282,18 @@ var H = new _highway.default.Core({
     default: _transition.default
   }
 });
+var html = console.log(document.querySelector('html'));
+var aboutButton = document.querySelector('.about-link');
+var projectsButton = document.querySelector('.projects-link');
+var body = document.querySelector('body');
+aboutButton.addEventListener('click', function () {
+  html.style.background = "#C5D86D";
+  body.style.background = "#C5D86D";
+});
+projectsButton.addEventListener('click', function () {
+  html.style.background = "#86615C";
+  body.style.background = "#86615C";
+});
 },{"@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.module.js","./transition":"js/transition.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -6310,7 +6322,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64830" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53727" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

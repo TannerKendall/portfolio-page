@@ -32,6 +32,12 @@ $pale-spring-bud: #E2E3A6;
 
 }
 
+html,
+body{
+    overscroll-behavior: auto;
+    background: $deep-taupe;
+}
+
 .home{
     background-color: $rich-black !important;
     background-image: url(/images/swirlyGuy.svg);
@@ -47,6 +53,7 @@ $pale-spring-bud: #E2E3A6;
     background-size: 40%;
     background-position: center;
     color: $rich-black !important;
+    display: grid;
 }
 
 .projects{
