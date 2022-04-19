@@ -6287,11 +6287,12 @@ var aboutButton = document.querySelector('.about-link');
 var projectsButton = document.querySelector('.projects-link');
 var body = document.querySelector('body');
 aboutButton.addEventListener('click', function () {
-  html.style.background = "#C5D86D";
+  // document.style.background = "#C5D86D";
+  document.createAttribute('style', 'background: #C5D86D;');
   body.style.background = "#C5D86D";
 });
 projectsButton.addEventListener('click', function () {
-  html.style.background = "#86615C";
+  document.createAttribute('style', 'background: #86615C;');
   body.style.background = "#86615C";
 });
 },{"@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.module.js","./transition":"js/transition.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

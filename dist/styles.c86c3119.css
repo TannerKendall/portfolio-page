@@ -23,12 +23,6 @@
   /*maybe*/
 }
 
-html,
-body {
-  overscroll-behavior: auto;
-  background: #86615C;
-}
-
 .home {
   background-color: #0D1321 !important;
   background-image: url(/swirlyGuy.eb3e1f55.svg);

@@ -13,11 +13,12 @@ const projectsButton = document.querySelector('.projects-link');
 const body = document.querySelector('body');
 
 aboutButton.addEventListener('click', () => {
-    html.style.background = "#C5D86D";
+    // document.style.background = "#C5D86D";
+    document.createAttribute('style', 'background: #C5D86D;');
     body.style.background = "#C5D86D";
 });
 
 projectsButton.addEventListener('click', () => {
-    html.style.background = "#86615C";
+    document.createAttribute('style', 'background: #86615C;');
     body.style.background = "#86615C";
 });
